@@ -1,0 +1,63 @@
+/* 
+    Document   : styles.css
+    Created on : Dec 28, 2011, 2:32:03 PM
+    Author     : tonyj
+    Description:
+        default stylesheet to be included in the ePub package.
+*/
+
+hr {
+page-break-after:always;
+}
+
+a {
+color:#009;
+}
+
+a:hover {
+color:#00F;
+}
+
+.toc a {
+text-decoration:none;
+color:#009;
+}
+
+.toc a:hover {
+text-decoration:underline;
+color:#00F;
+}
+
+a.poll {
+color:#009;
+background:#FEC;
+text-decoration:none;
+border-color:#DCA #BA8 #BA8 #DCA;
+border-style:solid;
+border-width:1px 2px 2px 1px;
+padding:0.5em;
+}
+
+a.poll:hover {
+color:#00F;
+background:#FFFFE0;
+text-decoration:none;
+}
+
+a.ad_link {
+text-decoration:none;
+}
+
+a.ad_link:hover {
+text-decoration:underline;
+}
+
+#menu1 a,#menu1 a.selected,#menu2 a {
+color:#009;
+text-decoration:none;
+}
+
+#menu1 a:hover,#menu1 a.selected:hover,#menu2 a:hover {
+color:#00F;
+text-decoration:underline;
+}
